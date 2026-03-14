@@ -1,25 +1,25 @@
-title: Hello, world! I'm Sung-Jaewoo.
-description: >This is a blog for self-development and own portfolio. # this means to ignore newlines until "baseurl:"
-permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://Sung-Jaewoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+title: "Hello, world! I'm Sung-Jaewoo."
+description: >
+  This is a blog for self-development and my portfolio.
+baseurl: ""
+url: "https://sung-jaewoo.github.io"
+site-twitter:
 
 # Author Settings
-author: Sung-Jaewoo # add your name
-author-img: simple_profile_image.png # add your photo
-about-author: I am a web university student focusing on back-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: Sung-Jaewoo # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: willsung0407@gmail.com # add your Email address
+author: "Sung-Jaewoo"
+author-img: "simple_profile_image.png"
+about-author: "I am a university student focusing on back-end development. Always hungry to keep learning."
+social-twitter:
+social-facebook:
+social-github: "Sung-Jaewoo"
+social-linkedin:
+social-email: "willsung0407@gmail.com"
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier: "mr-brown"
 
 # Tracker
-analytics: # Google Analytics
+analytics:
 
 # Build Settings
 markdown: kramdown
@@ -31,4 +31,8 @@ plugins:
 paginate: 8
 paginate_path: "/page/:num"
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - yarn.lock
